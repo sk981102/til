@@ -9,4 +9,8 @@
 - did advent of code 2021
 - learned more about bayesian learning - [Link](/others/bayesian_learning.md)
 
+## Day 3 : 12/04/2021
+- attempted advent of code 2021
 
+## Day 4 : 12/05/2021
+- Next Frame Prediction paper review, focused on sequence to one model - [Link](/others/next_frame_prediction.md)
