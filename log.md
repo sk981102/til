@@ -14,3 +14,9 @@
 
 ## Day 4 : 12/05/2021
 - Next Frame Prediction paper review, focused on sequence to one model - [Link](/others/next_frame_prediction.md)
+
+## Day 5 : 12/06/2021
+- Next Frame Prediction paper review, focused on sequence to sequence model - [Link](/others/next_frame_prediction.md)
+
+## Day 6 : 12/07/2021
+- Next Frame Prediction Implementation on ocean_co2 repo - [Link]()
