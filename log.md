@@ -19,4 +19,4 @@
 - Next Frame Prediction paper review, focused on sequence to sequence model - [Link](/others/next_frame_prediction.md)
 
 ## Day 6 : 12/07/2021
-- Next Frame Prediction Implementation on ocean_co2 repo - [Link]()
+- Next Frame Prediction Implementation on ocean_co2 repo - [Link](https://github.com/sk981102/ocean_co2/blob/main/notebooks)

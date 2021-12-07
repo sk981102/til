@@ -43,10 +43,9 @@ Autoencoder model consists of convolutional networks and the decoder consists of
 The input is temporal frames that are separately fed into the neural network. Specifically, the frame in time step t is input to the deep learning model, and the prediction is the next frame in time step t + 1.
 - better captures the temporal information by incorporating RNN
 - need to set different weights to each time point
-- can combine autoencoder model or GAN with RNN to capture both spatial and temporal
+- can combine autoencoder model or GAN with RNN to capture both spatial and temporal information
 
-The upper part is a representative expansion for
-sequence prediction. The lower part is the prediction model, which is composed of a recurrent neural network
+ The general sequence to sequence prediction model has the prediction model, which is composed of a recurrent neural network
 and an autoencoder. The frame sequence is fed into the RNN. The total loss is composed of the difference
 between the predicted images and the ground truth in each time step.
 
@@ -55,6 +54,7 @@ between the predicted images and the ground truth in each time step.
 
 **Github Repo for Model**
 - [CNN autoencoder + LSTM](https://github.com/junhyukoh/nips2015-action-conditional-video-prediction)
--
+    - input: 4, 11 frames | output: 1 frame | uses L1 loss
+
 
 ## Resources
