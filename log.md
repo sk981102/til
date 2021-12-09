@@ -20,3 +20,14 @@
 
 ## Day 6 : 12/07/2021
 - Next Frame Prediction Implementation on ocean_co2 repo - [Link](https://github.com/sk981102/ocean_co2/blob/main/notebooks)
+
+## Day 7 : 12/08/2021
+- Next Frame Prediction Implementation on ocean_co2 repo - [Link](https://github.com/sk981102/ocean_co2/blob/main/notebooks)
+
+## Day 8 : 12/09/2021
+```
+watch -n 0.1 ls <your_folder>
+```
+- monitors your folder every 0.1 second, very useful to see if the slurm file has been created
+
+
