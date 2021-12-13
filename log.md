@@ -25,9 +25,12 @@
 - Next Frame Prediction Implementation on ocean_co2 repo - [Link](https://github.com/sk981102/ocean_co2/blob/main/notebooks)
 
 ## Day 8 : 12/09/2021
+- monitors your folder every 0.1 second, very useful to see if the slurm file has been created
 ```
 watch -n 0.1 ls <your_folder>
 ```
-- monitors your folder every 0.1 second, very useful to see if the slurm file has been created
+- fixed the dimensionality and OOM problem for the next frame prediction
+- fixed data preprocessing kernel issue
 
-
+## Day 9 : 12/10/2021
+- got next frame prediction to work + reached the lowest rmse score ever!
