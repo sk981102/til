@@ -17,7 +17,9 @@ As mentioned in the previous TIL, the function chain style is very similar to py
 You can also batch compute using `streaming=True` in the `collect()`.
 
 ### Lazy DataFrame
-Lazy evaluation is essentially a query plan for Polars to optimize the queries. Using `explain()`, you can see how the query is getting optimized, and further optimize the query depending on the number of columns that are getting projected. 
+Lazy evaluation is essentially a query plan for Polars to optimize the queries. Using `explain()`, you can see how the query is getting optimized, and further optimize as you see fit. 
+
+The main limitation of the lazy mode is that the evaluation must know the column names and dtypes of each step of the query plan, meaning functions like `pivot` must be evaluated immediately.
 
 #### Query Optimization in Polars
 Though I conceptually knew of these optimization techniques, it was nice to have a framework around it and consider them as I write my own code. 
