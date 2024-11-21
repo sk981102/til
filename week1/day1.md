@@ -7,11 +7,11 @@ Got a new mac mini from the Apple store. and I am very motivated to start this j
 Here are the list of things I want to learn...
 
 - Polars
-- Rust Programming
 - Large Language Model Applications
 - Out of Distribution Generalization 
 - SMOTE for Imbalanced Data
 - AWS Architecture/Credentials
+- Bayesian Regression/ TimeSeries Models
 
 ## Polars
 
